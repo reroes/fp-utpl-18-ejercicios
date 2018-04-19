@@ -18,7 +18,7 @@ public class SeleccionAnidada {
         String nombre = "René";
                  
 
-        if (calificacion >= 90) {
+        if (calificacion >= 90 &&  calificacion<=100) {
             System.out.printf("Usted está aprobado (excelente) con %d\n", calificacion);
         } else {
             if (calificacion < 90 && calificacion >= 80) {
